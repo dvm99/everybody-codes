@@ -1,0 +1,61 @@
+#mac
+.DS_Store
+
+# Angular specific
+/ec-frontend/dist/
+/ec-frontend/out-tsc/
+/ec-frontend/tmp/
+/ec-frontend/coverage/
+/ec-frontend/e2e/test-output/
+/ec-frontend/.angular/
+
+# Node modules and dependency files
+/ec-frontend/node_modules/
+/ec-frontend/package-lock.json
+
+# Environment files
+/.env
+
+# Angular CLI and build artefacts
+/ec-frontend/.angular-cli.json
+/ec-frontend/.ng/
+
+# TypeScript cache
+/ec-frontend/*.tsbuildinfo
+
+# Logs
+/ec-frontend/npm-debug.log*
+/ec-frontend/yarn-debug.log*
+/ec-frontend/yarn-error.log*
+
+/ec-api/HELP.md
+/ec-api/target/
+/ec-api/.mvn/wrapper/maven-wrapper.jar
+/ec-api/!**/src/main/**/target/
+/ec-api/!**/src/test/**/target/
+
+### STS ###
+/ec-api/.apt_generated
+/ec-api/.classpath
+/ec-api/.factorypath
+/ec-api/.project
+/ec-api/.settings
+/ec-api/.springBeans
+/ec-api/.sts4-cache
+
+### IntelliJ IDEA ###
+/ec-api/.idea
+/ec-api/*.iws
+/ec-api/*.iml
+/ec-api/*.ipr
+
+### NetBeans ###
+/ec-api/nbproject/private/
+/ec-api/nbbuild/
+/ec-api/dist/
+/ec-api/nbdist/
+/ec-ap/.nb-gradle/
+/ec-apibuild/
+/ec-api!**/src/main/**/build/
+/ec-api!**/src/test/**/build/
+
