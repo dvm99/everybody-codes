@@ -1,0 +1,15 @@
+.mat-mdc-table {
+  border: 2px solid black;
+
+  .mat-mdc-row {
+    .mat-mdc-cell {
+      background-color: #d3d3d3;
+      color: #000000;
+    }
+  }
+
+  .mat-mdc-row:hover .mat-mdc-cell {
+    background-color: #f68c20;
+    color: #ffffff;
+  }
+}

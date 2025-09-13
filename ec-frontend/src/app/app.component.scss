@@ -1,0 +1,22 @@
+.app-container {
+  background-color: #6a6a6a;
+
+  .map-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .table-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    app-camera-table {
+      margin: 20px;
+      max-height: 350px;
+      overflow: scroll;
+    }
+  }
+}
